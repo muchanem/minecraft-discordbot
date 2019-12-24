@@ -4,7 +4,11 @@
   "description": "Simple discord bot that allows me to send pertinent information about my minecraft server to discord.",
   "main": "main.js",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "bufferutil": "^4.0.1",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0",
+    "libsodium": "^0.7.5",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {},
   "scripts": {
