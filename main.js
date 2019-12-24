@@ -13,7 +13,6 @@ client.on('ready', () => {
 
 
 client.on('message', msg => {
-  client.user.setActivity('pztron.io', { type: 'WATCHING' });
   if (msg.author.id != client.user.id) {
       // msg.channel.send(msg.content.split('').reverse().join(''))
       // msg.channel.send(Date())
